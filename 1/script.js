@@ -23,6 +23,51 @@ $('#btn-reset').click(function() {
 
 
 
+// 9 lesson https://www.youtube.com/watch?v=wurHaYZR9ck&list=PLVfMKQXDAhGXQcouhIblV910Rv7lRscH3&index=9
+
+// var p = $(".first");
+// var offset = p.offset();   //получение сдвига (например, кот создаётся маржином)
+// p.html("left:"+ offset.left + ",top:" + offset.top);
+
+// $('.third').offset({top:10, left: 350});
+
+
+
+// var p = $(".first");
+// var position = p.position();   //получение сдвига (например, кот создаётся маржином)
+// p.html("left:"+ position.left + ",top:" + position.top);
+
+
+// function showHeight(element, height) {
+//     $("div").text("Height of the " + element + " is " + height);
+// }
+
+// $("#getp").click(function(){
+//     showHeight("paragraph", $("p").height());
+// });
+// $("#getd").click(function(){
+//     showHeight("document", $(document).height());
+// });
+
+// $("#getw").click(function(){
+//     showHeight("window", $(window).height());
+// });
+
+// var p = $('p:first');
+// $("p:last").text("InnerHeight:" + p.innerHeight());
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
