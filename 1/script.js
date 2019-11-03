@@ -8,38 +8,70 @@ $('#btn-reset').click(function() {
 
 
 
-// slider with images, 11 lesson fully works  https://www.youtube.com/watch?v=u4qJcO5hLdQ&list=PLVfMKQXDAhGXQcouhIblV910Rv7lRscH3&index=12
-$(document).ready(function(){
 
-    $('.next').click(function(){
-        var currentImage = $('.img.curry');
-        var currentImageIndex = $('.img.curry').index();
-        var nextImageIndex = currentImageIndex + 1;
-        var nextImage = $('.img').eq(nextImageIndex);
-        currentImage.fadeOut(100);      //медленное затухание до пропажи
-        currentImage.removeClass('curry');
 
-        if(nextImageIndex == ($('.img:last').index() + 1)){
-            $('.img').eq(0).fadeIn(1000);
-            $('.img').eq(0).addClass('curry');
-        } else {
-            nextImage.fadeIn(1000);
-            nextImage.addClass('curry');
-        }
-    });
 
-    $('.prev').click(function(){
-        var currentImage = $('.img.curry');
-        var currentImageIndex = $('.img.curry').index();
-        var prevImageIndex = currentImageIndex - 1;
-        var prevImage = $('.img').eq(prevImageIndex);
 
-        currentImage.fadeOut(1000);
-        currentImage.removeClass('curry');
-        prevImage.fadeIn(1000);
-        prevImage.addClass('curry');
-    });
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// slider with images, 12 lesson fully works  https://www.youtube.com/watch?v=u4qJcO5hLdQ&list=PLVfMKQXDAhGXQcouhIblV910Rv7lRscH3&index=12
+// $(document).ready(function(){
+
+//     $('.next').click(function(){
+//         var currentImage = $('.img.curry');
+//         var currentImageIndex = $('.img.curry').index();
+//         var nextImageIndex = currentImageIndex + 1;
+//         var nextImage = $('.img').eq(nextImageIndex);
+//         currentImage.fadeOut(100);      //медленное затухание до пропажи
+//         currentImage.removeClass('curry');
+
+//         if(nextImageIndex == ($('.img:last').index() + 1)){
+//             $('.img').eq(0).fadeIn(1000);
+//             $('.img').eq(0).addClass('curry');
+//         } else {
+//             nextImage.fadeIn(1000);
+//             nextImage.addClass('curry');
+//         }
+//     });
+
+//     $('.prev').click(function(){
+//         var currentImage = $('.img.curry');
+//         var currentImageIndex = $('.img.curry').index();
+//         var prevImageIndex = currentImageIndex - 1;
+//         var prevImage = $('.img').eq(prevImageIndex);
+
+//         currentImage.fadeOut(1000);
+//         currentImage.removeClass('curry');
+//         prevImage.fadeIn(1000);
+//         prevImage.addClass('curry');
+//     });
+// });
 
 
 
