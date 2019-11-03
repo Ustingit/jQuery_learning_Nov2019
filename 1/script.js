@@ -6,11 +6,50 @@ $('#btn-reset').click(function() {
     location.reload();
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //-------------------------------------------
+//8 lesson   https://www.youtube.com/watch?v=xE0tNP2SEDg&list=PLVfMKQXDAhGXQcouhIblV910Rv7lRscH3&index=8
+//$('.second').replaceWith("<h2>Hew text</h2>");
+//$("<h2>Hew text</h2>").replaceAll(".inner");
 
+// $('.inner').wrap('<div class="new">text in div</div>');
+//$('.inner').wrapInner('<div class="new">text in div</div>');  //wraps content of the element
 
+//$('.first').clone().appendTo(".third");
 
+// var p;
+// $('button').click(function(){
+//     if(p){
+//         p.appendTo("body");  //add to end of the element
+//         p = null;
+//     } else {
+//         p = $('.hello').detach();
+//     }
+// });
 
+//$('.third').empty();  //or remove()
 
 
 
