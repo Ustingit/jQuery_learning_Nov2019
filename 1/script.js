@@ -18,6 +18,25 @@ $('#btn-reset').click(function() {
 
 
 
+//5th lesson - animations
+// $('.anim').click(function(){
+//     $(this).hide("slow");
+// });    //fast or speed im ms  //manipulate css properties (display None)
+
+// $('.anim').hide('slow', function(){
+//     alert("Hi!");
+// });
+
+// $('#stick').click(function(){
+//     $("#hide").slideDown('slow');
+// });
+
+// $('article h2').click(function(){   //hiding and unhiding the element
+//     $(this).next().slideToggle('slow');
+//    });
+
+
+
 
 
 
