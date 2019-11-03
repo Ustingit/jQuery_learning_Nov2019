@@ -8,7 +8,10 @@ $('#btn-reset').click(function() {
 
 
 
-
+$('.mobile-tab').hide();  // hide be default
+$('#burg').click(function(){
+    $('.mobile-tab').slideToggle();  //show by click
+});
 
 
 
