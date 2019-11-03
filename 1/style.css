@@ -1,4 +1,38 @@
-body{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 13 lesson  up to button (fully works)*/
+/* body{
     background-color: #322131;
     height: 2500px;
     font-family: Arial;
@@ -15,7 +49,7 @@ h1{
     position: fixed;
     bottom: 20px;
     right: 40px;
-    z-index: 99;  /*вроде перекрытие другого контента */
+    z-index: 99;  вроде перекрытие другого контента 
     border: none;
     outline: none;
     background-color: #2ecc71;
@@ -26,7 +60,7 @@ h1{
 }
 .btn-top:hover{
     background-color: #27ae60;
-}
+} */
 
 
 
