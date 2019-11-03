@@ -23,6 +23,31 @@ $('#btn-reset').click(function() {
 
 
 
+
+// 10 adaptive menu  https://www.youtube.com/watch?v=TOlHXNINzUU&list=PLVfMKQXDAhGXQcouhIblV910Rv7lRscH3&index=10
+
+// (function($){
+//     $(function(){
+//         $('.icon').on('click', function(){
+//                 $(this).closest('.menu').toggleClass('menu-open');
+//         });
+//     });
+// })(jQuery);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 9 lesson https://www.youtube.com/watch?v=wurHaYZR9ck&list=PLVfMKQXDAhGXQcouhIblV910Rv7lRscH3&index=9
 
 // var p = $(".first");
