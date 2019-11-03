@@ -7,16 +7,56 @@ $('#btn-reset').click(function() {
 });
 
 
-$('a').attr('href', 'https://github.com/Ustingit/jQuery_learning_Nov2019');
-$('a').html('link changed by script to your github');
 
-$('article > h2').attr({
-    'id': 'automaticallyGeneratedId',
-    'class': 'automaticallyGeneratedClass'
-});
 
-var altText = $('img').attr('alt');
-$('img').attr('src', '/img/default.jpeg');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//4th lesson
+// $('#quantity').keyup(function(){    // https://www.youtube.com/watch?v=p7ey_crD_UY&list=PLVfMKQXDAhGXQcouhIblV910Rv7lRscH3&index=4
+//     var value = $(this).val();   //dublicate text to another input in real time
+//     $('#msg').text(value);
+// });
+
+// $('a').click(function(){
+//     alert('Hello!');
+//     event.preventDefault();    // this both can be chnged to just   return false;
+//     event.stopPropagation();  //
+// });
+
+// $('header').click(function(){
+//     alert('Hello!!!!!');
+// });
+
+
+
+
+
+
+
+
+//3rd lesson:
+// $('a').attr('href', 'https://github.com/Ustingit/jQuery_learning_Nov2019');
+// $('a').html('link changed by script to your github');
+
+// $('article > h2').attr({
+//     'id': 'automaticallyGeneratedId',
+//     'class': 'automaticallyGeneratedClass'
+// });
+
+// var altText = $('img').attr('alt');
+// $('img').attr('src', '/img/default.jpeg');
 
 //$('#content').toggle('box');   // hiding of the element (set display : one)
 
