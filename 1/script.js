@@ -6,6 +6,7 @@ $('#btn-reset').click(function() {
     location.reload();
 });
 
+//-------------------------------------------
 
 
 
@@ -14,6 +15,30 @@ $('#btn-reset').click(function() {
 
 
 
+
+
+
+
+
+
+
+
+
+//-------------------------------------------
+//7 les  https://www.youtube.com/watch?v=q7zjIHJXuSg&list=PLVfMKQXDAhGXQcouhIblV910Rv7lRscH3&index=7
+
+//var $myDiv = $('<div id="my" class="page">Hello</div>').appendTo("body");  // or .appendTo("#content"); etc
+
+//var $myDiv = $('<div>Hello</div>',{'id': 'my', 'class': 'page'}).appendTo('body');
+
+//var $myDiv = $('<div>Hello</div>').attr({'id': 'my', 'class': 'page'}).appendTo('body');
+
+// var myDiv = document.createElement('div');
+// myDiv.id = 'my';
+// myDiv.className = "page";
+
+//$('p').after("<hr/>");  // ==  $("<hr/>").insertAfter('p');
+//$("p").append("<hr/>");
 
 
 
