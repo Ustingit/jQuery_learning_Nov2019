@@ -18,6 +18,66 @@ $('#btn-reset').click(function() {
 
 
 
+
+
+//-----------------------------------------------
+//6th lesson p2 - animation  https://www.youtube.com/watch?v=TM78nW0oEMU&list=PLVfMKQXDAhGXQcouhIblV910Rv7lRscH3&index=6
+
+// $('.anim').click(function(){
+//     $(this).animate({
+//         'opacity':'-=0.3'
+//     }).animate({
+//         'height':'+=50px'
+//     }).animate({
+//         'width':'-=25px'
+//     });
+// });  
+
+//   jQuery.fx.off = true;  turn off all animations fordebugging
+
+// $('.anim').click(function(){
+//     $(this).animate({
+//         'opacity':'-=0.3',  // уменьшить текущее значение на 0ю3
+//         'height':'+=50px', // + 50 пикселей к текущему
+//         'width':'-=25px'
+//     });
+// });  
+
+
+// $('.anim').click(function(){
+//     $(this).animate({
+//         'opacity':0.5,
+//         'height':'50px',
+//         'width':'250px'
+//     });
+// });  
+
+// $('.anim').animate({
+//     'opacity':'show'
+// })
+
+
+
+
+
+
+
+
+// $('.anim').click(function(){
+//     $(this).fadeTo('slow', 0.4);
+//     //$(this).fadeOut(1200);   //выцветание изменяет параметр opacity
+//     //$(this).fadeIn(1500);
+//     //$(this).fadeToggle(3000);  //выцветает а в конце пропадёт
+// });
+
+
+
+
+
+
+
+
+//----------------------------------------------
 //5th lesson - animations
 // $('.anim').click(function(){
 //     $(this).hide("slow");
