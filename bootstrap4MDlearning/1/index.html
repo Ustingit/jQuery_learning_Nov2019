@@ -242,12 +242,71 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi iure quia odio quaerat debitis laudantium quisquam nihil a.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi iure quia odio quaerat debitis laudantium quisquam nihil a.</p>
             <p>by <a href="#"><strong>Yuryi Ustinovich</strong></a>, 07.11.2019</p>
+            <a href="#" class="btn btn-primary btn-md waves-effect waves-light">Read More</a>
           </div>
 
         </div>
       </section>
       <hr class="my-5">
 
+      <section id="contact">
+        <h2 class="mb-5 font-weight-bold text-center">
+          Contact us
+        </h2>
+        <div class="row">
+          <!-- col-lg-5 = 2 columns on a big screens, col-md-12 = only one column on a small screeens -->
+          <div class="col-lg-5 col-md-12">
+            <!-- padding: 5 -->
+            <form class="p-5">
+              <div class="md-form form-sm">
+                <i class="fa fa-user prefix frey-text"></i>
+                <input type="text" id="form3" class="form-control form-control-sm">
+                <label for="form3">Your name</label>
+              </div>
+              <div class="md-form form-sm">
+                  <i class="fa fa-envelop prefix frey-text"></i>
+                  <input type="text" id="form2" class="form-control form-control-sm">
+                  <label for="form2">Your e-mail</label>
+                </div>
+                <div class="md-form form-sm">
+                    <i class="fa fa-tag prefix frey-text"></i>
+                    <input type="text" id="form32" class="form-control form-control-sm">
+                    <label for="form32">Subject</label>
+                  </div>
+                  <div class="md-form form-sm">
+                      <i class="fa fa-pencil prefix frey-text"></i>
+                      <textarea rows="3" type="text" id="form8" class="md-textarea form-control form-control-sm"></textarea>
+                      <label for="form8">Your message</label>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn btn-primary waves-effect waves-light">Send <i class="fa fa-paper-plane ml-1"></i>  </button>
+                    </div>
+            </form>
+          </div>
+
+          <!-- колоночная система -->
+          <div class="col-lg-7 col-md-12">
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-12 mb-3">
+                    <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>London</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <p><i class="fa fa-building fa-1x mr-2 grey-text"></i>Mon - Fri</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-3">
+                      <p><i class="fa fa-phone fa-1x mr-2 grey-text"></i>+375296431212</p>
+                    </div>
+            </div>
+
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 400px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3953.5529147262873!2d27.422591943573575!3d53.89981858926453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1573141417407!5m2!1sen!2sus" frameborder="0"
+                  style="border:0" allowfullscreen></iframe>
+              </div>
+
+          </div>
+
+        </div>
+      </section>
 
 
 
@@ -267,6 +326,23 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="https://maps.google.com/maps/api/js?"></script>
+  <script>
+  var var_location = new google.maps.LatLng(40.3592868, -3.3695632);
+
+  var var_mapoptions = {
+    center: var_location,
+    zoom: 9.28
+  };
+
+  var var_map = new google.maps.Map(document.getElementById("map-container-google-1"), var_mapoptions);
+
+  var var_marker = new google.maps.Marker({
+    position: var_location,
+    map: var_map,
+    title: 'Madrid'
+  });
+  </script>
 </body>
 
 </html>
