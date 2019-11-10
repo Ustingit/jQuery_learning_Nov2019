@@ -17,6 +17,7 @@
         .border {
             border: 3px grey solid;
         }
+
     </style>
   </head>
   <body>
@@ -49,6 +50,52 @@
                           </div>
                         </div>
                       </div>
+                     <br>
+                     <p class="text-center">
+                         <a href="#" data-target="#login-modal" data-toggle="modal" role="button" class="btn btn-primary btn-lg">Login here!</a>
+                     </p>
+
+                     <div class="modal fade" id="login-modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <img id="img_logo" style="width: 40px;" src="logo.png" alt="">
+                                </div>
+
+                                <div id="div-forms">
+                                    <form>
+                                        <div class="modal-body">
+
+                                        </div>
+
+
+                                        <div>
+                                            <span>Type your creds here</span>
+                                        </div>
+                                        <input placeholder="Email" type="text" class="form-control" required>
+                                        <input placeholder="Password" type="password" class="form-control" required>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox">Remember me
+                                            </label>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+                                        </div>
+                                        <div class="col-sm-6">
+                                                <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                     </div>
         </div>
     </div>
 
