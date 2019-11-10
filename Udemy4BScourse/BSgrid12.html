@@ -12,7 +12,7 @@
     <title>Document</title>
     <style>
         .con {
-            background-color: #a1a1a1;
+            background-color: #95a5a6;
             height: 100vh; /* viewport-height */
         }
         .grey {
@@ -23,33 +23,36 @@
             background-color: red;
             height: 200px;
         }
+        .blue {
+            background-color: #3498db;
+        }
+        .green {
+            background-color: #2ecc71;
+        }
+        .rowHeight {
+            background-color: #000;
+            height: 300px;
+        }
     </style>
 </head>
 <!-- div произзносится как дивижн  -->
 <body>
     <div class="container con">
-        <div class="row">
-            <div class="col-sm grey">column 1</div>
-            <div class="col-sm gr">column 2</div>
-            <div class="col-sm grey">column 3</div>
+        <!-- align-items-center\start\end  расположение итемов внутри -->
+        <!-- <div class="row rowHeight align-items-end">
+            <div class="col-sm blue">column 1</div>
+            <div class="col-sm green">column 2</div>
+            <div class="col-sm blue">column 3</div>
+        </div> -->
+
+        <!-- align for specific item (col) -->
+        <div class="row rowHeight" >
+                <div class="col green align-self-start">something 1</div>
+                <div class="col blue align-self-center">something 2</div>
+                <div class="col green align-self-end">something 3</div>
         </div>
-        <div class="row">1</div>
-        <div class="row">
-                <div class="col-sm grey">column 1</div>
-                <!-- col-md-auto-6  подстраивает в зав от контента -->
-                <div class="col-sm gr">column 2, add a bit more text to check auto correction!!!!</div>
-                <div class="col-sm grey">column 3</div>
-            </div>
-            <div class="row">2</div>
-        <div class="row">
-                <div class="col-sm-6 col-lg-6 col-md-4 grey">column 1</div>
-                <!-- col-md-auto-6  подстраивает в зав от контента -->
-                <div class="col-sm-3 col-lg-3 col-md-4 gr">column 2, add a bit more text to check auto correction!!!!</div>
-                <!-- w-100 по сути как будто помещает весь контент после него в новый div .row -->
-                <!-- <div class="w-100">aaa</div> -->
-                <div class="col-sm-3 col-lg-3 col-md-4 grey">column 3</div>
-            </div>
     </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
